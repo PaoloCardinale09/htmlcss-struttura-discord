@@ -71,55 +71,85 @@ li > a {
 
     /* Section "two" */
 
-    .two-left {
-        flex-grow: 2;
-        background-color: #1d90ff;
+.two-left {
+flex-grow: 2;
+background-color: #1d90ff;
+}
+
+.two-right {
+flex-grow: 1;
+background-color: #ffc1cb;
+}
+
+/* Section "three" */
+
+.bg-container-three {
+background-color: #d3d3d3;
+}
+
+.three-left {
+flex-grow: 1;
+background-color: #ffc1cb;
+}
+
+.three-right {
+flex-grow: 2;
+background-color: #1d90ff;
+}
+
+/* Section "four" */
+
+.four-left {
+    flex-grow: 2;
+    background-color: #1d90ff;
+}
+
+.four-right {
+    flex-grow: 1;
+    background-color: #ffc1cb;
+}
+
+/* Section "five" */
+
+.five-box {
+    height: 800px;
+    background-color: #238b21;
+}
+
+.bg-container-five {
+    background-color: #d3d3d3;
+}
+
+.five {
+    padding: 2rem 0;
+}
+
+
+/* FOOTER */
+
+.foot-top {
+    height: 600px;
+    padding: .5rem;
+}
+
+.bg-container-foot-top {
+    background-color: #23272a;
+}
+
+.foot-top-left {
+    width: 33.3333%;
+    background-color: #f08080;
+}
+
+.foot-top-right {
+    width: 66.3334%;
+    background-color: #21b2aa;
+    border: 3px dashed black;
+    display: flex;
+}
+
+.foot-top-right > div {
+    width: 25%;
+    border: 3px dashed #fff;
     }
-
-    .two-right {
-        flex-grow: 1;
-        background-color: #ffc1cb;
-    }
-
-        /* Section "three" */
-
-    .bg-container-three {
-        background-color: #d3d3d3;
-    }
-
-    .three-left {
-        flex-grow: 1;
-        background-color: #ffc1cb;
-    }
-
-    .three-right {
-        flex-grow: 2;
-        background-color: #1d90ff;
-    }
-    
-    /* Section "four" */
-
-        .four-left {
-            flex-grow: 2;
-            background-color: #1d90ff;
-        }
-    
-        .four-right {
-            flex-grow: 1;
-            background-color: #ffc1cb;
-        }
-
-        /* Section "five" */
-
-        .five-box {
-            height: 800px;
-            background-color: #238b21;
-        }
-
-        .bg-container-five {
-            background-color: #d3d3d3;
-        }
-
-        .five {
-            padding: 2rem 0;
-        }
+}

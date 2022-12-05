@@ -51,7 +51,7 @@ li > a {
 
 .bg-container-one {
     background-color: #00008b;
-    border-bottom: 2px solid #abd7e5;
+    border-bottom: 3px solid #abd7e5;
 }
 
 .one,
@@ -127,13 +127,17 @@ background-color: #1d90ff;
 
 /* FOOTER */
 
+    /* Footer-top */
+
 .foot-top {
     height: 600px;
-    padding: .5rem;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
 }
 
 .bg-container-foot-top {
     background-color: #23272a;
+    border-bottom: 3px solid #abd7e5;
 }
 
 .foot-top-left {
@@ -152,4 +156,29 @@ background-color: #1d90ff;
     width: 25%;
     border: 3px dashed #fff;
     }
+
+    /* Footer-bottom */
+
+.bottone,
+.logo-foot {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    margin: 1.5rem 0;
+}
+
+.container-bottom {
+    justify-content: space-between;
+    background-color: #7fffd4;
+    height: 80px;
+}
+
+.bg-container-foot {
+    background-color: #23272a;
+    padding-top: 1rem;
+    border-bottom: 3px solid #abd7e5;
+}
+
+.foot-bottom {
+    height: 100px;
 }

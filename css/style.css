@@ -1,0 +1,52 @@
+.bg-container {
+    background-color: #add8e6;
+    padding: 1rem;
+}
+
+header {
+    height: 50px;
+    background-color: #daa521;
+    margin: 20px;
+    
+}
+
+.container-header {
+    align-items: center;
+}
+
+.dashed {
+    border: 3px dashed black;
+}
+
+.nav {
+    
+    flex-grow: 1;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo,
+.login {
+    width: 20%;
+    height: 50px ;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.login {
+   justify-content: flex-end;
+}
+
+li > a {
+    margin: 0 10px;
+    color: black;
+}
+
+.nav > ul {
+    justify-content: center;
+}
+

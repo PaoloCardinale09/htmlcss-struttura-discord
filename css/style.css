@@ -1,3 +1,5 @@
+/* HEADER */
+
 .bg-container {
     background-color: #add8e6;
     padding: 1rem;
@@ -6,8 +8,7 @@
 header {
     height: 50px;
     background-color: #daa521;
-    margin: 20px;
-    
+    margin: 20px;    
 }
 
 .container-header {
@@ -19,13 +20,11 @@ header {
 }
 
 .nav {
-    
     flex-grow: 1;
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .logo,
@@ -50,3 +49,23 @@ li > a {
     justify-content: center;
 }
 
+/* MAIN */
+
+.bg-container-one {
+    background-color: #00008b;
+    border-bottom: 2px solid #abd7e5;
+}
+
+.one {
+    height: 500px;
+    padding: 2rem 0;
+}
+
+.box-top {
+    width: 80%;
+    height: 100%;
+    background-color: #ee81ee;
+    margin: 0 auto;
+    border: 3px dashed black;
+   
+} 

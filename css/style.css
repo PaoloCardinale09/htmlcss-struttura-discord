@@ -15,10 +15,6 @@ header {
     align-items: center;
 }
 
-.dashed {
-    border: 3px dashed black;
-}
-
 .nav {
     flex-grow: 1;
     height: 50px;
@@ -51,12 +47,16 @@ li > a {
 
 /* MAIN */
 
+    /* Section "one" */
+
 .bg-container-one {
     background-color: #00008b;
     border-bottom: 2px solid #abd7e5;
 }
 
-.one {
+.one,
+.two,
+.three {
     height: 500px;
     padding: 2rem 0;
 }
@@ -66,6 +66,33 @@ li > a {
     height: 100%;
     background-color: #ee81ee;
     margin: 0 auto;
-    border: 3px dashed black;
-   
 } 
+
+    /* section "two" */
+
+    .two-left {
+        flex-grow: 2;
+        background-color: #1d90ff;
+    }
+
+    .two-right {
+        flex-grow: 1;
+        background-color: #ffc1cb;
+    }
+
+        /* section "three" */
+
+    .bg-container-three {
+        background-color: #d3d3d3;
+    }
+
+    .three-left {
+        flex-grow: 1;
+        background-color: #ffc1cb;
+    }
+
+    .three-right {
+        flex-grow: 2;
+        background-color: #1d90ff;
+    }
+    

@@ -56,7 +56,8 @@ li > a {
 
 .one,
 .two,
-.three {
+.three,
+.four {
     height: 500px;
     padding: 2rem 0;
 }
@@ -68,7 +69,7 @@ li > a {
     margin: 0 auto;
 } 
 
-    /* section "two" */
+    /* Section "two" */
 
     .two-left {
         flex-grow: 2;
@@ -80,7 +81,7 @@ li > a {
         background-color: #ffc1cb;
     }
 
-        /* section "three" */
+        /* Section "three" */
 
     .bg-container-three {
         background-color: #d3d3d3;
@@ -96,3 +97,29 @@ li > a {
         background-color: #1d90ff;
     }
     
+    /* Section "four" */
+
+        .four-left {
+            flex-grow: 2;
+            background-color: #1d90ff;
+        }
+    
+        .four-right {
+            flex-grow: 1;
+            background-color: #ffc1cb;
+        }
+
+        /* Section "five" */
+
+        .five-box {
+            height: 800px;
+            background-color: #238b21;
+        }
+
+        .bg-container-five {
+            background-color: #d3d3d3;
+        }
+
+        .five {
+            padding: 2rem 0;
+        }
